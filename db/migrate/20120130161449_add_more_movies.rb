@@ -10,6 +10,7 @@ class AddMoreMovies < ActiveRecord::Migration
     {:title => 'The Incredibles', :rating => 'PG', :release_date => '5-Nov-2004'},
     {:title => 'Raiders of the Lost Ark', :rating => 'PG', :release_date => '12-Jun-1981'},
     {:title => 'Chicken Run', :rating => 'G', :release_date => '21-Jun-2000'},
+    {:title => 'Alien', :rating => 'R', :release_date => '21-Jun-2000'},
   ]
   def up
     MORE_MOVIES.each do |movie|
